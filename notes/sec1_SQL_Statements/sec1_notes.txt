@@ -1,0 +1,49 @@
+Database Design process
+ - What kind of thing are we storing? (table name)
+ - What properties does this thing have? (column)
+ - What type of data does each of those properties contain? (column data types)
+
+
+Table
+ - A table stores a collection of records that all have a related meaning.
+ - A table is a collection of columns and rows related to the table.
+
+Columns
+ - Columns are the table headers (properties).
+
+Rows 
+ - Rows are the data stored and related to each column.
+ 
+
+Example of an SQL statement:
+CREATE TABLE cities (
+	name VARCHAR(50),
+  country VARCHAR(50),
+  population INTEGER,
+  area INTEGER
+);
+
+  Keyword
+   - Tell the database that we want to do something. Always written out in capital 
+     letters. (CREATE, INSERT INTO, SELECT) are some of keywords examples we usually
+     use writing SQL statements.
+
+  Identifier
+   - Tell the database what thing we want to act on. Always written out in lower case
+     letters. Table names, columns name, and also rows name are all examples of SQL 
+     Identifiers.
+
+
+Columns data types
+  VARCHAR(50)
+   - A string character.
+   - 50 means we are not expected to store a character longer than 50 character long.
+
+  INTEGER
+   -  A number without decimals, ranging from - 2 billions to positive 2 billions.
+   
+
+
+
+
+

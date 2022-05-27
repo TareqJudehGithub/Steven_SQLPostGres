@@ -1,0 +1,2 @@
+SELECT name, population / area as "Density"
+FROM cities;

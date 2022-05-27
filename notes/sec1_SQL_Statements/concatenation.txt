@@ -1,0 +1,12 @@
+-- Joining strings in SQL
+
+Method 1:
+SELECT 
+	name ||', '||country AS "Location"
+  FROM cities;
+  
+Method 2:
+SELECT 
+	CONCAT(name, ', ', country) AS "Location"
+FROM cities;
+ 

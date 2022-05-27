@@ -1,0 +1,11 @@
+-- Filtering data
+SELECT 
+	"name", area
+ FROM cities
+ WHERE area > 4000;
+
+ SQL 
+ Analyze the query:
+  First looks up the table
+  Second looks at the filter (WHERE)
+  finally, the columns involved (SELECT) 

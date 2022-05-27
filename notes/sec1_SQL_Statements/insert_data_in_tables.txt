@@ -1,0 +1,7 @@
+
+-- Insert data into a table
+INSERT INTO cities (name, country, population, area)
+VALUES 
+  ('Delhi', 'Indea', 28125000, 2240),
+  ('Shanghai', 'China', 22118000, 4069);
+  
