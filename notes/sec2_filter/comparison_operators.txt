@@ -1,0 +1,39 @@
+Comparison operators
+
+=   equals
+!=  not equal
+>   greater than
+<   less than
+>=  greater than or equals
+<=  less than or equal
+IN  inside (part of)
+NOT IN (not inside or a part of)
+BETWEEN  between a specific range
+
+
+-- BETWEEN
+SELECT *
+FROM 
+	cities
+WHERE area BETWEEN 7000 AND 10000;
+
+
+-- IN
+SELECT *
+FROM
+	cities
+WHERE name IN ('Delhi', 'Amman');
+
+-- NOT IN
+SELECT *
+FROM
+	cities
+WHERE name NOT IN ('Delhi', 'Amman');
+
+
+-- 
+SELECT 
+	*,
+  population / area AS "Density"
+FROM cities
+WHERE "name" = 'Amman';

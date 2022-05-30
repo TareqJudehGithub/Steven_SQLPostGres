@@ -1,0 +1,4 @@
+-- Udate a record
+UPDATE cities
+SET area = 3250
+WHERE "name" = 'Irbid';
